@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import AllTechnicalIssues from './components/all-technical-issues.js';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <AllTechnicalIssues />
   </React.StrictMode>,
   document.getElementById('root')
 );
